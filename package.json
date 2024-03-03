@@ -4,15 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host --config vite.config.dev.js",
-    "build": "vite build --config vite.config.prod.js"
+    "dev": "vite --host",
+    "build": "vite build"
   },
+  "browserslist": "> 5%, not dead",
   "dependencies": {
     "vue": "^3.4.19"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "postcss": "^8.4.35",
     "postcss-combine-media-query": "^1.0.1",
     "postcss-preset-env": "^9.4.0",
     "sass": "^1.71.1",

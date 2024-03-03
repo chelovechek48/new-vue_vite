@@ -10,6 +10,6 @@ defineProps({
 
 <style lang="scss" scoped>
 .page__message {
-  background-color: #12345678;
+  background-color: lime;
 }
 </style>
