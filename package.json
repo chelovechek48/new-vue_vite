@@ -4,15 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite --host --config vite.config.dev.js",
+    "build": "vite build --config vite.config.prod.js"
   },
   "dependencies": {
     "vue": "^3.4.19"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.71.1",
     "vite": "^5.1.4"
   }
 }
