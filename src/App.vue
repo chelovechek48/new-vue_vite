@@ -6,6 +6,6 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld messageText="new-project" />
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

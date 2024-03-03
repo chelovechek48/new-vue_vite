@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host --config vite.config.dev.js",
-    "build": "vite build --config vite.config.prod.js"
+    "dev": "vite --host",
+    "build": "vite build"
   },
   "dependencies": {
     "vue": "^3.4.19"
