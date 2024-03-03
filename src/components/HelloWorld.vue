@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-  <h1 class="page__message" >1234 {{ messageText }}</h1>
+  <h1 class="page__message" >12345 {{ messageText }}</h1>
 </template>
 
 <style lang="scss" scoped>
