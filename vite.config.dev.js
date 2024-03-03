@@ -1,13 +1,14 @@
 import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from "url";
 import vue from '@vitejs/plugin-vue'
+import postcss from 'postcss';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
     port: "8080",
   },
-  plugins: [vue()],
+  plugins: [vue(), postcss],
   resolve: {
     alias: [
       { find: '@', replacement: fileURLToPath(new URL('./src', import.meta.url)) },
