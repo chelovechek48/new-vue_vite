@@ -6,6 +6,6 @@ export default defineConfig({
   server: {
     port: "8080",
   },
-  base: '/new-vite@vue',
+  base: '/new-vite-vue',
   plugins: [vue()],
 })
