@@ -1,15 +1,22 @@
-<script setup>
-defineProps({
-  messageText: String,
-})
+<script>
+export default {
+  props: {
+    messageText: {
+      type: String,
+      required: true,
+    },
+  },
+};
 </script>
 
 <template>
-  <h1 class="page__message" >12345 {{ messageText }}</h1>
+  <h1 class="message">
+    {{ messageText }}
+  </h1>
 </template>
 
 <style lang="scss" scoped>
-.page__message {
+.message {
   background-color: lime;
 }
 </style>

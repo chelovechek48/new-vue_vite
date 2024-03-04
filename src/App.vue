@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
-  <HelloWorld messageText="new-project" />
+  <HelloWorld message-text="new-project" />
 </template>
 
 <style scoped>

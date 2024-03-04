@@ -1,13 +1,13 @@
-import { defineConfig } from 'vite'
-import { fileURLToPath, URL } from "url";
-import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vite';
+import { fileURLToPath, URL } from 'url';
+import vue from '@vitejs/plugin-vue';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   // base: "/<REPO>"
   base: '/new-vite-vue',
   server: {
-    port: "8080",
+    port: '8080',
   },
   plugins: [vue()],
   resolve: {
@@ -18,4 +18,4 @@ export default defineConfig({
       { find: '@fonts', replacement: fileURLToPath(new URL('./src/assets/fonts', import.meta.url)) },
     ],
   },
-})
+});
