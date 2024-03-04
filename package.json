@@ -7,7 +7,7 @@
     "dev": "vite --host",
     "build": "vite build"
   },
-  "browserslist": "> 5%, not dead",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.1.4",
@@ -18,7 +18,9 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-vue": "^9.22.0",
+    "postcss": "^8.4.35",
     "postcss-combine-media-query": "^1.0.1",
+    "postcss-preset-env": "^9.4.0",
     "sass": "^1.71.1"
   }
 }
