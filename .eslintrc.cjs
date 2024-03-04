@@ -16,5 +16,20 @@ module.exports = {
     'linebreak-style': 'off',
     'import/extensions': 'off',
   },
-  ignorePatterns: ['main.js'],
+  plugins: ['import'],
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@', './src/'],
+          ['@components', './src/components'],
+          ['@images', './src/assets/images'],
+          ['@icons', './src/assets/icons'],
+          ['@fonts', './src/assets/fonts'],
+          ['@styles', './src/styles'],
+          ['@vars', './src/styles/vars'],
+        ],
+      },
+    },
+  },
 };
