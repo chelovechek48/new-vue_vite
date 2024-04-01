@@ -23,6 +23,7 @@ module.exports = {
         map: [
           ['@', './src/'],
           ['@components', './src/components'],
+          ['@views', './src/views'],
           ['@images', './src/assets/images'],
           ['@icons', './src/assets/icons'],
           ['@fonts', './src/assets/fonts'],
