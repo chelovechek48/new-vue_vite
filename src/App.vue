@@ -1,11 +1,15 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import HelloWorld from '@components/HelloWorld.vue';
 </script>
 
 <template>
-  <HelloWorld message-text="new-project" />
+  <HelloWorld message-text="Hello" />
 </template>
 
-<style scoped>
+<style lang="scss">
+@import '@styles';
+</style>
+
+<style lang="scss" scoped>
 
 </style>
